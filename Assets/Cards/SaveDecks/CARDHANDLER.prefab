@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8155595240220516686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 192402033487502456}
+  - component: {fileID: 5677975240013356899}
+  m_Layer: 0
+  m_Name: CARDHANDLER
+  m_TagString: CardHandler
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &192402033487502456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8155595240220516686}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1095496, y: -0.084550805, z: -1.8666669}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5677975240013356899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8155595240220516686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99490ff698699a84584072a553ecb2cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardCount: 5
+  CardNames:
+  - BronzeFireball
+  - BronzeShield
+  CardObjects:
+  - {fileID: 204428299958021527, guid: f7645e2b1b5b093409aed6415b5fd4ba, type: 3}
+  - {fileID: 204428299958021527, guid: f265dbf6f7fad0e44a5e217f776925d6, type: 3}
+  OwnedCards:
+  - BronzeFireball
+  - BronzeFireball
+  - BronzeFireball
+  - BronzeShield
